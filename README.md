@@ -8,6 +8,10 @@ which was presented at [ICDE 2020](https://icde.utdallas.edu/).
 
 ![](https://github.com/Shuang-H/outdated-fact-detection/blob/main/framework.jpg)
 
+- Phase I:  Outdated Fact Prediction. The input is the KB and reference data on hand, and the output is the OD Model that predicts the likelihood of each fact being outdated, which provides evidence for Phase II.
+- Phase II: Human-based Verification. It takes the KB, logical rules, and prediction results of OD Model as the input to build a graph model for selecting facts to be verified, and outputs the human answers of the selected facts.
+- Phase III: Rule-based Fact Expansion. It takes the human labels from  Phase II as input, infers more outdated facts, and feeds these inferred facts into the ML model (Phase I).
+
 
 ## Citations
 
