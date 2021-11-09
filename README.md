@@ -6,7 +6,7 @@ which was presented at [ICDE 2020](https://icde.utdallas.edu/).
 
 ## Framework
 
-
+![](https://github.com/Shuang-H/outdated-fact-detection/blob/main/framework.jpg)
 
 
 ## Citations
