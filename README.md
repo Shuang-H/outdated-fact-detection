@@ -12,12 +12,11 @@ which was presented at [ICDE 2020](https://icde.utdallas.edu/) as a short paper.
 - Phase II: Human-based Verification. It takes the KB, logical rules, and prediction results of OD Model as the input to build a graph model for selecting facts to be verified, and outputs the human answers of the selected facts.
 - Phase III: Rule-based Fact Expansion. It takes the human labels from  Phase II as input, infers more outdated facts, and feeds these inferred facts into the ML model (Phase I).
 
-Here, we provide the code of `'Top-k Hits Selection & Fact Expansion'` and `'Logical Rule Mining'`
 
 ## Datasets
-In our experiments, the revisions from Yago-1.0.0 to Yago-1.1.0 were used as the KB revision history to mine logical rules and Yago-2.0.0 was considered as the ground truth after we detected the outdated facts in Yago-1.1.0. They can be downloaded from https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/archive.
+We use Yago and DBpedia to verify the effectiveness of our framework, which can be downloaded from https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/archive and http://downloads.dbpedia.org respectively. More information can be found in our paper.
 
-DBpedia was also used. The revisions before DBpedia-3.4 were used as the KB revision records and DBpedia-3.6 was taken as the ground truth after we detected the outdated facts in DBpedia-3.4. They can be downloaded from http://downloads.dbpedia.org.
+The news data from the Gigaword v.5 dataset (https://catalog.ldc.upenn.edu/LDC2011T07) is obtained as the reference data to train the OD model. Since it is not free, here we can only provide the training data that has been processed. 
 
 
 
