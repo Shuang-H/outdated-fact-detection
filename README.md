@@ -16,7 +16,7 @@ which was presented at [ICDE 2020](https://icde.utdallas.edu/) as a short paper.
 ## Datasets
 We use Yago and DBpedia to verify the effectiveness of our framework, which can be downloaded from https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/yago/archive and http://downloads.dbpedia.org respectively. More information can be found in our paper.
 
-The news data from the Gigaword v.5 dataset (https://catalog.ldc.upenn.edu/LDC2011T07) is obtained as the reference data to train the OD model. Since it is not free, here we can only provide the training data that has been processed. 
+The news data from the Gigaword v.5 dataset (https://catalog.ldc.upenn.edu/LDC2011T07) is obtained as the reference data to train the OD model. Since it is not free, here we can only provide some training data that has been processed. 
 
 
 
