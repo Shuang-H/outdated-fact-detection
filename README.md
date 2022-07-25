@@ -2,7 +2,7 @@
 
 This is the code for the paper: [Outdated Fact Detection in Knowledge Bases](https://ieeexplore.ieee.org/document/9101535),
 Shuang Hao, Chengliang Chai, Guoliang Li, Nan Tang, Ning Wang, Xiang Yu,
-which was presented at [ICDE 2020](https://icde.utdallas.edu/).
+which was presented at [ICDE 2020](https://icde.utdallas.edu/) as a short paper.
 
 ## Framework
 
