@@ -14,7 +14,12 @@ which was presented at [ICDE 2020](https://icde.utdallas.edu/) as a short paper.
 
 Here, we provide the code of `'Top-k Hits Selection & Fact Expansion'` and `'Logical Rule Mining'`
 
-## Citations
+##Datasets
+In our experiments, the revisions from Yago-1.0.0 to Yago-1.1.0 were used as the KB revision history to mine logical rules and Yago-2.0.0 was considered as the ground truth after we detected the outdated facts in Yago-1.1.0. They can be downloaded from https://www.mpi-inf.mpg.de/departments/databases-and-information- systems/research/yago-naga/yago/archive.
+
+
+
+## Citation
 
 If you find this code useful in your research then please cite
 ````
