@@ -232,14 +232,6 @@ public class Selection {
 	}
 	
 	public static void main(String[] args){
-		Selection select = new Selection();
-		//String MLOutputFile = "./ML_Output/Regression_Output_DBpedia.txt";
-		//String KBFile = "./Train_DBpedia.txt";
-		String vertexFile = "./Vertex_Yago.txt";
-		//select.Preprocess(MLOutputFile, KBFile, vertexFile);
-		String ruleFile = "./Rule_data/Apply_Rule_Yago.txt";
-		select.buildGraph(vertexFile, ruleFile);
-		select.TopKSelection(1000, 100);
-		select.InSelection(1000, 100);
+		
 	}
 }
